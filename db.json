@@ -1,0 +1,68 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Plain t-shirt",
+      "image": "https://img.ltwebstatic.com/images3_pi/2022/04/11/16496677361d43fbaa38a6c2a2e91b9040a347c9de_thumbnail_900x.webp",
+      "size": "M",
+      "color": "Black",
+      "type": "Top"
+    },
+    {
+      "id": 2,
+      "name": "Plain t-shirt",
+      "image": "https://img.shein.com/images/shein.com/201704/49/14916170983385689530_thumbnail_900x1199.webp",
+      "size": "M",
+      "color": "White",
+      "type": "Top"
+    },
+    {
+      "id": 3,
+      "name": "Skinny Jeans",
+      "image": "https://n.nordstrommedia.com/id/sr3/0269eb06-a434-44b4-bdbb-7fba0af835a7.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
+      "size": "S",
+      "color": "Blue",
+      "type": "Bottom"
+    },
+    {
+      "id": 4,
+      "name": "Pumps",
+      "image": "https://img.ltwebstatic.com/images3_pi/2022/09/26/16641842130c9e9178c81c34f0044a993b4ff3efe0_thumbnail_900x.webp",
+      "size": "9",
+      "color": "Red",
+      "type": "Shoes"
+    },
+    {
+      "id": 5,
+      "name": "Belt",
+      "image": "https://img.ltwebstatic.com/images3_pi/2022/03/14/1647227087a2af2f9c58718672e90d7721c07499c4_thumbnail_900x.webp",
+      "size": "S",
+      "color": "Black",
+      "type": "Accessory"
+    },
+    {
+      "id": 6,
+      "name": "belt",
+      "image": "https://img.ltwebstatic.com/images3_pi/2022/03/14/1647227087a2af2f9c58718672e90d7721c07499c4_thumbnail_900x.webp",
+      "size": "S",
+      "color": "black",
+      "type": "Accessory"
+    },
+    {
+      "name": "Blazer",
+      "image": "https://di2ponv0v5otw.cloudfront.net/posts/2021/05/01/608dbcbbbb59372ae1b7d4fd/m_608dbcbdbb59372ae1b7d50d.jpg",
+      "size": "M",
+      "color": "Brown",
+      "type": "Outerwear",
+      "id": 7
+    },
+    {
+      "name": "Sneakers",
+      "image": "https://cdn.thewirecutter.com/wp-content/media/2021/02/whitesneakers-2048px-4192.jpg",
+      "size": "9",
+      "color": "White",
+      "type": "Shoes",
+      "id": 8
+    }
+  ]
+}
