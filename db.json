@@ -41,14 +41,6 @@
       "type": "Accessory"
     },
     {
-      "id": 6,
-      "name": "belt",
-      "image": "https://img.ltwebstatic.com/images3_pi/2022/03/14/1647227087a2af2f9c58718672e90d7721c07499c4_thumbnail_900x.webp",
-      "size": "S",
-      "color": "black",
-      "type": "Accessory"
-    },
-    {
       "name": "Blazer",
       "image": "https://di2ponv0v5otw.cloudfront.net/posts/2021/05/01/608dbcbbbb59372ae1b7d4fd/m_608dbcbdbb59372ae1b7d50d.jpg",
       "size": "M",

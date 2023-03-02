@@ -11,35 +11,21 @@ function WardrobePage({items, setItems}){
 
     const updatedItems = items.filter((item) => (
         item.name.toLowerCase().includes(search.toLowerCase()) && 
-        ( (selectedType === "All") ?  true : item.type === selectedType)
+        ((selectedType === "All") ?  true : item.type === selectedType)
     ))
-
 
 
     function handleTypeChange(e) {
         setSelectedType(e.target.value);
     }
 
-   // we want to filter the items to only display the ones based on the selected category
-    // const itemsToDisplay = items.filter((item) => {
-    //     if (selectedType === "All") return true;
-
-    //     return item.item === selectedType;
-    // });
-
-
 
     function handleSortChange(e){
-        console.log('sort by change', e.target.value)
-        // e.target.value === "name" ? sortByName() : sortByColor()
         e.target.value === "name" ? setItems(sortByName()) : setItems(sortByColor())
-
     }
 
-   
-
     function sortByName(){
-        const sortedNames = items.sort((a,b) => {
+        const sortedNames = [...items].sort((a,b) => {
             const nameA = a.name.toUpperCase(); 
             const nameB = b.name.toUpperCase();
             if (nameA < nameB) {
@@ -51,13 +37,11 @@ function WardrobePage({items, setItems}){
             // names must be equal
             return 0;
         })
-        console.log("function sortByName(), sorted names", sortedNames)
         return (sortedNames)
-        // setItems(sortedNames);
     }
 
     function sortByColor(){
-        const sortedColors = items.sort((a,b) => {
+        const sortedColors = [...items].sort((a,b) => {
             const nameA = a.color.toUpperCase(); 
             const nameB = b.color.toUpperCase();
             if (nameA < nameB) {
@@ -69,9 +53,7 @@ function WardrobePage({items, setItems}){
             // names must be equal
             return 0;
         })
-        console.log("function sortByColor(), sorted colors", sortedColors);
         return(sortedColors)
-        // setItems(sortedColors);
     }
 
     return (
