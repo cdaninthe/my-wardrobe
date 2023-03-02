@@ -63,6 +63,14 @@
       "color": "White",
       "type": "Shoes",
       "id": 8
+    },
+    {
+      "name": "Sneakers",
+      "image": "https://cdn.allbirds.com/image/upload/f_auto,q_auto,w_853,b_rgb:f5f5f5/cms/24CSEJ7FoNCM3j5VC86PQT/650a2ef691bd449384d88a8b68f39ed2/TR3MJBK080_SHOE_ANGLE_GLOBAL_MENS_TREE_RUNNER_JET_BLACK_BLACK.png",
+      "size": "9",
+      "color": "black",
+      "type": "Shoes",
+      "id": 9
     }
   ]
 }
