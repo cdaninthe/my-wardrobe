@@ -31,6 +31,7 @@ function ItemForm({onAddItem}){
 
     return(
         <div>
+            <br/>
             <h1>New Item form</h1>
             <form onSubmit={handleSubmit}>
                 <input type="text" name="name" placeholder="Item name" 
@@ -57,7 +58,7 @@ function ItemForm({onAddItem}){
                         <option value="Accessory">Accessory</option>
                         <option value="Shoes">Shoes</option>
                 </select>
-                <button type="submit">Add Item</button>
+                <button type="submit" className="active">Add Item</button>
             </form>
         </div>
         

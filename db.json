@@ -22,7 +22,7 @@
       "image": "https://n.nordstrommedia.com/id/sr3/0269eb06-a434-44b4-bdbb-7fba0af835a7.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
       "size": "S",
       "color": "Blue",
-      "type": "Bottom"
+      "type": "Pants"
     },
     {
       "id": 4,
@@ -63,6 +63,14 @@
       "color": "black",
       "type": "Shoes",
       "id": 9
+    },
+    {
+      "name": "Purse",
+      "image": "https://fossil.scene7.com/is/image/FossilPartners/ZB1799001_main?$sfcc_fos_medium$",
+      "size": "Small",
+      "color": "black",
+      "type": "Accessory",
+      "id": 10
     }
   ]
 }

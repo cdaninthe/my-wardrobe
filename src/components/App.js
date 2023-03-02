@@ -5,6 +5,7 @@ import WardrobePage from './WardrobePage';
 import NavBar from './NavBar';
 import ItemForm from './ItemForm';
 import { Route, Switch } from "react-router-dom";
+import ClothesPage from './ClothesPage';
 
 
 function App() {
@@ -29,6 +30,9 @@ function App() {
       <Switch>
         <Route exact path="/form">
           <ItemForm onAddItem={handleAddItem}/>
+        </Route>
+        <Route exact path="/clothes">
+          <ClothesPage items={items} setItems={setItems}/>
         </Route>
         <Route exact path="/">
           <WardrobePage items={items} setItems={setItems}/>

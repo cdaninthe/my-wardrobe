@@ -4,7 +4,7 @@ function Filter({onTypeChange, onSortChange}){
 
     return(
         <div>
-            <h1>insert filter here</h1>
+            <br/>
             <select name="filter" onChange={onTypeChange}>
                 <option value="All">Show only...</option>
                 <option value="Top">Tops</option>
@@ -17,13 +17,14 @@ function Filter({onTypeChange, onSortChange}){
                 <option value="Accessory">Accessories</option>
                 <option value="Shoes">Shoes</option>
             </select>
-
-
+            
             <select name="sort" onChange={onSortChange}>
                 <option value="All">Sort wardrode by...</option>
                 <option value="name">name</option>
                 <option value="color">color</option>
             </select>
+            <br/>
+            <p>---</p>
         </div>
     );
 }
