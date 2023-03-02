@@ -71,6 +71,14 @@
       "color": "black",
       "type": "Accessory",
       "id": 10
+    },
+    {
+      "name": "Skater dress",
+      "image": "https://img.ltwebstatic.com/images3_pi/2022/03/25/16481756316cfd98a171b5c2dc558a890092d7815a_thumbnail_900x.webp",
+      "size": "M",
+      "color": "red",
+      "type": "Dress",
+      "id": 11
     }
   ]
 }

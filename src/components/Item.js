@@ -16,10 +16,8 @@ function Item({item, onDeleteItem, onUpdateItem}){
     
     function handlePackClick(){
         if (pack) {
-            console.log('unpack', item.name)
             setPack(false)
         } else {
-            console.log("pack ", item.name)
             setPack(true)
         }
     }
