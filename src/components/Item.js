@@ -3,7 +3,6 @@ import { Card } from "semantic-ui-react";
 
 function Item({item, onDeleteItem, onUpdateItem}){
     const [pack, setPack]= useState(false)
-    const [suitcase, setSuitcase]= useState([])
     const [isHidden, setHidden]=useState("hidden")
     const [update, setUpdate]=useState('')
     const [value, setValue]= useState('')
@@ -17,14 +16,12 @@ function Item({item, onDeleteItem, onUpdateItem}){
     }
     
     function handlePackClick(){
-        console.log(suitcase)
         if (pack) {
             console.log('unpack', item.name)
             setPack(false)
         } else {
             console.log("pack ", item.name)
             setPack(true)
-            setSuitcase([...suitcase, item])
         }
     }
 
