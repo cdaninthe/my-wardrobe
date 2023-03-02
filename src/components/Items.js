@@ -19,6 +19,8 @@ function Items({items, setItems}){
           setItems(updatedItems)
     }
 
+    
+
     return(
         <Card.Group itemsPerRow={4}>
             {items.map((item) => (

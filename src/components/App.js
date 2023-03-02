@@ -27,9 +27,6 @@ function App() {
       <Header/>
       <NavBar />
       <Switch>
-        {/* <Route exact path="/suitcase">
-          <Suitcase />
-        </Route> */}
         <Route exact path="/form">
           <ItemForm onAddItem={handleAddItem}/>
         </Route>
