@@ -58,7 +58,9 @@ function Item({item, onDeleteItem, onUpdateItem}){
                     :
                     (<button onClick={handlePackClick}>Pack for Trip</button>)
                 }
+                <br/>
                 <button onClick={handleDeleteClick}>Donate / Declutter</button>
+                <br/>
                 <button onClick={handleUpdateClick}>Update Item Image</button> 
                 <form hidden={isHidden} onSubmit={handleSubmitUpdate}>
                     <input placeholder="insert new image..." onChange={(e)=> setNewImage(e.target.value)}></input>

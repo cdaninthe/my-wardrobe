@@ -1,3 +1,51 @@
+Welcome to My Wardrobe!
+
+A B O U T
+=========
+My Wardrobe is a Single Page React Application. With this application you will be able to:
+
+- see all the items in your wardrobe
+- add new items to your wardrobe
+- donate or declutter items from your wardrobe (delete)
+- filter items by type
+- sort items by name or color
+- pack items for a trip (This feature doesn't have backend persistence)
+
+
+C O N T E X T
+=========
+This app was created as part of my portfolio project for Flatiron School, Software Engineer Bootcamp. The project was required to follow the following:
+
+1- You must make a single page application (only one index.html file) using create-react-app.
+
+2- Your app should use at least 5 components in a way that keeps your code well organized.
+
+3- There should be at least 3 client-side routes using React Router. Be sure to include a nav bar or other UI element that allows users to navigate between routes. Use RESTful routing conventions where applicable.
+
+4- Use a json-server to create a RESTful API for your backend and make both a GET and a POST request to the json server. Use a form to make your post request, specifically a controlled form/component. Additionally, you may choose to incorporate data from an external API but it is not required.
+
+5- Add some styling: you're encouraged to write your CSS from scratch, either by using styled components or writing CSS files and using id/className to style your elements. You can also incorporate a UI framework (like React Bootstrap, Semantic UI, or Material UI) if you prefer.
+
+
+C O N T R I B U T I N G
+=========
+If you would like to contribute to this project, just fork it and use it.
+
+L I C E N S E
+=========
+This is an open source project that follows the MIT license
+
+C R E D I T S
+=========
+Images from Shein, Poshmark, Allbirds, Fossil, Nordstrom
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
