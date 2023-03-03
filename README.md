@@ -37,7 +37,7 @@ This is an open source project that follows the MIT license
 
 C R E D I T S
 =========
-Images from Shein, Poshmark, Allbirds, Fossil, Nordstrom
+Images from Shein, Poshmark, Allbirds, Fossil, Nordstrom and Wikipedia
 
 
 
